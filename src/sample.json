@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Thomas Schlachter",
+            "title": "Ben Rice makes history as first New York Yankee rookie to hit three home runs in a single game - CNN",
+            "description": "Rookie Ben Rice had a day to remember as he hit three home runs in the New York Yankees’ huge 14-4 win against the Boston Red Sox on Saturday.",
+            "url": "https://www.cnn.com/2024/07/07/sport/ben-rice-yankee-rookie-history-spt-intl/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2160918154.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-07-07T10:46:00Z",
+            "content": "Rookie Ben Rice had a day to remember as he hit three home runs in the New York Yankees huge 14-4 win against the Boston Red Sox on Saturday.\r\nPer the Elias Sports Bureau, Rice is the first ever rook… [+1881 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Record-breaking heatwave threatens 130 million people in US - Al Jazeera English",
+            "description": "Temperatures could spike beyond 100F in parts of the Pacific Northwest, the mid-Atlantic and the Northeast.",
+            "url": "https://www.aljazeera.com/news/2024/7/7/record-breaking-heatwave-threatens-130-million-people-in-us",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/07/33NR8MW-highres-1689532131.jpg?resize=1920%2C1440",
+            "publishedAt": "2024-07-07T10:33:57Z",
+            "content": "More than 130 million people in the United States are under threat from a long-running heatwave that has already broken records with dangerously high temperatures, forecasters said, adding that scorc… [+2491 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters.com",
+            "title": "Hamas says it's waiting for Israeli response on Gaza ceasefire proposal - Reuters.com",
+            "description": null,
+            "url": "https://www.reuters.com/world/middle-east/hamas-says-its-waiting-israeli-response-ceasefire-proposal-2024-07-07/",
+            "urlToImage": null,
+            "publishedAt": "2024-07-07T09:39:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "JUAN LOZANO, JIM VERTUNO",
+            "title": "Beryl storm pushes Texas on alert, expected to regain hurricane strength - The Associated Press",
+            "description": "Beryl is hurtling across the warm waters of the Gulf of Mexico on a collision course with Texas. It is currently a tropical storm but is forecast to regain hurricane status before nearing the coast Sunday and making landfall the following day. A hurricane war…",
+            "url": "https://apnews.com/article/hurricane-beryl-texas-a01a44797f9de77a54b3a8be454ea37f",
+            "urlToImage": "https://dims.apnews.com/dims4/default/f8e2705/2147483647/strip/true/crop/6931x3899+0+578/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffe%2Fc7%2Fe08aba4d83fa5cca50a670aa43f2%2F169e971f18a9471293728c7ac2507676",
+            "publishedAt": "2024-07-07T09:14:00Z",
+            "content": "HOUSTON (AP) Beryl was hurtling across the warm waters of the Gulf of Mexico on a collision course with Texas, forecast to pick up strength and regain hurricane status before nearing the coast Sunday… [+3560 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "POLITICO.eu"
+            },
+            "author": "Hanne Cokelaere, Victor Goury-Laffont",
+            "title": "France election results 2024: Who is winning across the country - POLITICO Europe",
+            "description": "When will the French election results be out?",
+            "url": "https://www.politico.eu/article/france-election-results-2024-map-constituencies-emmanuel-macron-marine-le-pen-live-new-popular-front-national-rally/",
+            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/07/07/GettyImages-2158658170-scaled.jpg",
+            "publishedAt": "2024-07-07T09:14:00Z",
+            "content": "Results will start coming in at 8 p.m. and be revealed throughout the night in each of Frances 577 constituencies. By Monday morning, it should be known if the far right won and if they secured enoug… [+581 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TOI Entertainment Desk",
+            "title": "Varun Dhawan praises Orry's performance over Justin Bieber at the Ambani sangeet but Ananya Panday doesn’ - TOI Etimes",
+            "description": "​The pre-wedding festivities for Anant Ambani and Radhika Merchant hit a high note with their extravagant sangeet ceremony in Mumbai. The event was a",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/varun-dhawan-praises-orrys-performance-over-justin-bieber-at-the-ambani-sangeet-but-ananya-panday-doesnt-seem-to-agree/articleshow/111553389.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-111553389,width-1070,height-580,imgsize-83572,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2024-07-07T09:06:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Chris Mason: What can we learn from Starmer's first day as PM? - BBC.com",
+            "description": "BBC's Political Editor Chris Mason decodes the early signs of the new Labour government.",
+            "url": "https://www.bbc.com/news/articles/c728egw36gdo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e6be/live/09edb960-3c1c-11ef-96a1-1905e02a91d1.jpg",
+            "publishedAt": "2024-07-07T07:50:00Z",
+            "content": "The last time I recall a cabinet meeting on a Saturday was during the Brexit years and the time before that was due to the Falklands War.\r\nIn other words, they are rare.\r\nThis one was about cracking … [+2802 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "NPR",
+            "title": "It will take years to clean up frozen trash at Everest's highest camp - NPR",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3Lm5wci5vcmcvMjAyNC8wNy8wNy9ueC1zMS01MDMxOTc0L2V2ZXJlc3RzLWhpZ2hlc3QtY2FtcC1nYXJiYWdlLWNsZWFudXAtd2lsbC10YWtlLXllYXJz0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-07-07T07:41:41Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Biden's ABC interview draws 8.5 million viewers - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2024/07/06/biden-abc-interview-ratings",
+            "urlToImage": null,
+            "publishedAt": "2024-07-07T07:29:59Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Biden's team drafted the questions for his first post-debate interviews - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2024/07/06/biden-interview-draft-questions-wurd",
+            "urlToImage": null,
+            "publishedAt": "2024-07-07T07:29:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Ted Holmlund",
+            "title": "Kings land DeMar DeRozan in 3-year, $74 million sign-and-trade deal - New York Post ",
+            "description": "DeMar DeRozan’s time with the Chicago Bulls is over. The Kings are acquiring the 34-year-old free agent guard in a three-year, $74 million sign-and -trade deal, according to an ESPN report on…",
+            "url": "https://nypost.com/2024/07/07/sports/kings-land-demar-derozan-in-3-year-74-million-sign-and-trade-deal/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/07/newspress-collage-slzxxnfg6-1720336679900.jpg?quality=75&strip=all&1720322424&w=1024",
+            "publishedAt": "2024-07-07T07:22:00Z",
+            "content": "DeMar DeRozan’s time with the Chicago Bulls is over.\r\nThe Kings are acquiring the 34-year-old free agent guard in a three-year, $74 million sign-and -trade deal, according to an ESPN report on Saturd… [+2796 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Nicholas McEntyre",
+            "title": "Kentucky gunman Chase Garvey kills four at birthday party shooting in Florence - New York Post ",
+            "description": "The deadly shooting happened just before 2:50 a.m. Saturday in the 2600 block of Ridgecrest Drive in Florence, KY where homeowner Melissa Parrett was hosting a 21st birthday for her son, according …",
+            "url": "https://nypost.com/2024/07/07/us-news/kentucky-gunman-chase-garvey-kills-four-at-birthday-party-shooting-in-florence/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/07/newspress-collage-twqz5lzgz-1720346247218.jpg?quality=75&strip=all&1720331981&w=1024",
+            "publishedAt": "2024-07-07T07:16:00Z",
+            "content": "A convicted felon killed four people at a Kentucky birthday party on Saturday before he fatally shot himself while fleeing from the police.\r\nThe deadly shooting happened just before 2:50 a.m. Saturda… [+3052 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jack Baer",
+            "title": "Nate Diaz defeats Jorge Masvidal by majority decision in rematch of UFC veterans - Yahoo Sports",
+            "description": "Masvidal outlanded Diaz in both total punches and power punches.",
+            "url": "https://sports.yahoo.com/nate-diaz-defeats-jorge-masvidal-by-majority-decision-in-rematch-of-ufc-veterans-060246438.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/3YyK06Ce2zQCZB33vgjujw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-07/7f0d9320-3c24-11ef-b1fe-8bd85734b640",
+            "publishedAt": "2024-07-07T06:05:00Z",
+            "content": "Nate Diaz and Jorge Masvidal made for an entertaining boxing match. (Photo by Ronald Martinez/Getty Images)\r\nThe Nate Diaz-Jorge Masvidal boxing match Saturday ended up delivering a lot more than the… [+3370 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "KVUE.com"
+            },
+            "author": "KVUE Staff",
+            "title": "Third suspect arrested in connection with shooting at Round Rock Juneteenth celebration - KVUE.com",
+            "description": "Two women were killed and 14 others were injured in the shooting during a Juneteenth event on June 15 at Old Settlers Park in Round Rock.",
+            "url": "https://www.kvue.com/article/news/crime/round-rock-old-settlers-park-shooting-dixon-keshawn/269-22787012-19ea-4649-951b-987fd88495a7",
+            "urlToImage": "https://media.kvue.com/assets/KVUE/images/b7f1d987-1379-4dc3-b79d-49dd2705e019/20240616T080827/b7f1d987-1379-4dc3-b79d-49dd2705e019_1140x641.jpg",
+            "publishedAt": "2024-07-07T04:31:00Z",
+            "content": "ROUND ROCK, Texas \r\nA third suspect has been arrested in the investigation into the deadly shooting that happened June 15 in Round Rock, Texas at the Juneteenth Festival at Old Settlers Park, accordi… [+2750 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Fox Business",
+            "title": "California family's $444 receipt from Trader Joe's goes viral on social media: 'Insane' - New York Post ",
+            "description": "A California family’s massive Trader Joe’s receipt recently went viral on social media, sparking a debate about which grocery stores are affordable for families.",
+            "url": "https://nypost.com/2024/07/06/lifestyle/california-familys-444-receipt-from-trader-joes-goes-viral-on-social-media-insane/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/07/newspress-collage-f52wba7fo-1720340915514.jpg?quality=75&strip=all&1720326556&w=1024",
+            "publishedAt": "2024-07-07T03:50:00Z",
+            "content": "A California family’s massive Trader Joe’s receipt recently went viral on social media, sparking a debate about which grocery stores are affordable for families.\r\nIn a video that’s been viewed over 1… [+2780 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Scientists Confirm Earth's Core Has Slowed Dramatically, Now Moving In Reverse - NDTV",
+            "description": "Researchers said that the slowing down could change the length of one day on the Earth by fractions of a second.",
+            "url": "https://www.ndtv.com/science/scientists-confirm-earths-core-has-slowed-dramatically-now-moving-in-reverse-6051284",
+            "urlToImage": "https://i.ndtvimg.com/i/2017-03/earth-mantle_650x400_41488715210.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738?ver-20240615.100",
+            "publishedAt": "2024-07-07T03:34:07Z",
+            "content": "The depth and inaccessibility of the inner core mean that uncertainties remain.\r\nDeep within Earth lies a solid metal ball that rotates independently of our spinning planet, like a top whirling insid… [+5076 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Ethan Shanfeld",
+            "title": "James Cameron Pays Tribute to ‘Avatar’ and ‘Titanic’ Producer Jon Landau: ‘A Part of Myself Has Been Torn Away’ - Variety",
+            "description": "James Cameron pays tribute to his longtime producing partner Jon Landau, who died July 5 at age 63, calling him 'the center of our Avatar universe.'",
+            "url": "https://variety.com/2024/film/news/james-cameron-jon-landau-tribute-avatar-titanic-1236061837/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/07/GettyImages-1456088799-e1720307113618.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-07-07T03:15:00Z",
+            "content": "Saying that he feels like “a part of myself has been torn away,” director James Cameron has paid tribute to his longtime producing partner Jon Landau, who died of cancer July 5 at age 63.\r\nCameron an… [+4074 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Jordan Smith",
+            "title": "Bitcoin tanks as Mt. Gox begins repaying creditors - CNBC",
+            "description": "CNBC Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers with a look at what's ahead with high-profile interviews, explainers, and unique stories from the ever-changing crypto industry. On tod…",
+            "url": "https://www.cnbc.com/video/2024/07/05/bitcoin-tanks-as-mt-gox-begins-repaying-creditors-cnbc-crypto-world.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/108002243-240705_cw_thumbnail.jpg?v=1720203070&w=1920&h=1080",
+            "publishedAt": "2024-07-07T02:44:31Z",
+            "content": null
+        }
+    ]
+}

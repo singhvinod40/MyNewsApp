@@ -1,0 +1,16 @@
+/* News.css */
+.news-container {
+    padding: 40px;
+  }
+  
+  .news-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .news-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+ 
