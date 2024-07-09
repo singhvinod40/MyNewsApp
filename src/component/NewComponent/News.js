@@ -4,6 +4,7 @@ import NewsItem from "../NewsItem/NewsItem";
 import "./News.css";
 import { MdSkipPrevious } from "react-icons/md";
 import { MdSkipNext } from "react-icons/md";
+import Spinner from "../Spinner/Spinner";
 
 export class News extends Component {
     constructor() {
@@ -19,36 +20,43 @@ export class News extends Component {
 
     async componentDidMount() {
 
-        let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=9b5434c59ab242f9987cc7ee33515c70&pageSize=15";
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9b5434c59ab242f9987cc7ee33515c70&pageSize=${this.props.pageSize}`;
+        this.setState({ loading: true });
         let data = await fetch(url);
         let parseData = await data.json();
-        this.setState({ article: parseData.articles, totalResults: parseData.totalResults });
+        this.setState({
+            article: parseData.articles,
+            totalResults: parseData.totalResults,
+            loading: false
+        });
     }
 
     handlePrev = async () => {
 
-        let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=9b5434c59ab242f9987cc7ee33515c70&page=${this.state.page-1}&pageSize=15`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9b5434c59ab242f9987cc7ee33515c70&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
+        this.setState({ loading: true });
         let parseData = await data.json();
 
         this.setState({
             page: this.state.page - 1,
-            article: parseData.articles
+            article: parseData.articles,
+            loading: false
         })
     }
 
     handleNext = async () => {
 
-        if (this.state.page + 1 > Math.ceil(this.state.totalResults / 15)) { }
-
-        else {
-            let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=9b5434c59ab242f9987cc7ee33515c70&page=${this.state.page +1}&pageSize=15`;
+        if (!(this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize))) {
+            let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9b5434c59ab242f9987cc7ee33515c70&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+            this.setState({ loading: true });
             let data = await fetch(url);
             let parseData = await data.json();
 
             this.setState({
                 page: this.state.page + 1,
-                article: parseData.articles
+                article: parseData.articles,
+                loading: false
             })
         }
     }
@@ -58,8 +66,9 @@ export class News extends Component {
             <>
                 <div className="container my-3">
                     <h1 className="text-center">Top Headlines</h1>
+                    {this.state.loading && <Spinner />}
                     <div className="row">
-                        {this.state.article.map((element) => {
+                        { !this.state.loading && this.state.article.map((element) => {
 
                             return <div className="col-md-4 my-2" key={element.url}>
                                 <NewsItem title={element.title}
@@ -73,7 +82,9 @@ export class News extends Component {
                 </div>
                 <div className="Container d-flex justify-content-around">
                     <button disabled={this.state.page <= 1} type="button" className="btn btn-outline-info" onClick={this.handlePrev}> <MdSkipPrevious /> Previous</button>
-                    <button disabled={this.state.page + 1 > Math.ceil(this.state.totalResults / 15)} type="button" className="btn btn-outline-info" onClick={this.handleNext}>Next <MdSkipNext /></button>
+
+                    <span>Page {this.state.page} of {Math.ceil(this.state.totalResults / this.props.pageSize)}</span>
+                    <button disabled={this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize)} type="button" className="btn btn-outline-info" onClick={this.handleNext}>Next <MdSkipNext /></button>
                 </div>
             </>
         );
