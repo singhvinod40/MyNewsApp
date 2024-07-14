@@ -1,33 +1,68 @@
-/* NewsItem.css */
+.card-container {
+  position: relative;
+  margin: 20px;
+  width: 350px; /* Fixed width for all cards */
+  height: 450px; /* Fixed height for all cards */
+}
+
 .card {
-  width: 100%;
-  height: 400px; /* Set a fixed height */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%; /* Ensure the card takes the full height of the container */
+  position: relative; /* Ensure child elements are positioned relative to the card */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
 }
 
 .card-img-top {
-  max-height: 150px; /* Restrict the height of the image */
-  object-fit: cover; /* Ensure the image covers the space */
+  width: 100%;
+  height: 150px; /* Fixed height for the image */
+  object-fit: cover;
 }
 
 .card-body {
+  padding: 15px; /* Reduced padding */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /* Distribute space between elements */
+  flex-grow: 1; /* Allow the card body to grow and fill the available space */
 }
 
 .card-title {
-  font-size: 1.2em;
+  font-size: 1.3em; /* Adjust font size if necessary */
   margin-bottom: 10px;
 }
 
-.card-text {
-  flex-grow: 1; /* Make the description take up remaining space */
+.badge {
+  position: absolute;
+  top: 1px; /* Position the badge inside the card, over the image */
+  right: 1px; /* Align the badge to the right of the card */
+  z-index: 1; /* Ensure the badge is on top of the image */
 }
 
-.btn {
-  align-self: flex-end; /* Align the button to the end */
+.card-text {
+  font-size: 0.9em; /* Adjust font size if necessary */
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.updated-text {
+  font-size: 0.875em;
+  color: #6c757d;
+  margin-bottom: auto; /* Pushes the button to the bottom */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
 }
